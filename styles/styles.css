@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+    *{
+margin: 0px;
+}
+p{
+    font-family: "Lato", sans-serif;
+}
+h1, h2, h3{
+    font-family: "Nunito Sans", sans-serif;
+}
+header{
+    width: 100%;
+    background-size: cover;      
+    height: 44rem;
+    background-image: url('/assets/images/banner-bk.jpg');
+}
+.container{
+    display: flex;
+    padding: 60px 150px;
+    justify-content: space-between;
+    color: azure;
+}
+.container img{
+    width: 70px;
+}
+.containe{
+    color: azure;
+    padding: 0px 150px;
+    width: 50%;
+    font-size: 20px;
+} 
+.containe h1{
+    font-size:100px;
+}
+button{
+    margin-top: 50px;
+    background-color: #00f5a0;   
+    color: #000;                
+    padding: 17px 40px;         
+    border: none;               
+    border-radius: 30px;       
+    font-size: 16px;
+    font-weight: 600;   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.container1{
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.containe1{
+    gap: 100px;
+    padding: 20px 70px;
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+}   
+
+
+.containe2{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 150px;
+      background: linear-gradient(170deg, white 50%, #00ffad 45%);
+}
+ .containe-dos{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 150px;
+    background-color: #00ffad;
+    gap: 50px;
+}
+.containe-dos img{
+    width: 40%;
+}
+.containe2 img{
+    width: 45%;
+}
+.contain2{
+    width: 50%;
+    font-size: 18px;
+
+}
+.contain2 h2{
+    font-size: 50px;
+}
+.containe-dos button, .containe2 button{
+    background-color:  rgba(18, 18, 58, 0.984);
+    color: #ffffff;
+}
+
+
+
+.container3{
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: center;    
+}
+.containe3{
+        padding: 50px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+.contai3{
+    font-size: 20px;
+color: aliceblue;
+background-color: rgba(18, 18, 58, 0.984);
+padding: 50px 100px;
+}
+.contain3{
+     font-size: 18px;
+padding: 50px 0px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px; 
+    padding-right: 20px;
+}
+.hola{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding:60px 0px ;
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;      
+    font-weight: 800;
+}
+.hola h2{
+    font-size: 100px;
+}
+.hola p{
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+
+
+
+
+.container4{
+    display: flex;
+    padding: 60px 100px 60px 100px;
+    justify-content: space-between;
+    background-color: rgba(198, 200, 201, 0.793);
+}
+
+
+
+.container5{
+    justify-content: space-evenly;
+    display: flex;
+    background-image: url('/assets/images/contact-bk.jpg');
+    height: 600px;
+}
+.formulario {
+    height: 48%;
+    margin: 100px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    color:#00f5a0;
+}
+.campo{
+    display: flex;
+    gap: 50px;
+}
+.formulario label {
+  margin-top: 20px;
+}
+
+.formulario input, .formulario textarea {
+  width: 100%;
+background:transparent;
+  padding: 10px;
+  border: 2px solid  #00f5a0; ;
+  border-radius: 4px;
+  font-size: 2rem;
+}
+textarea{
+    height: 10rem;
+}
+.contai5 h2{
+    font-size: 60px;
+}
+.contai5{
+    width: 60%;
+    color: #ffffff;
+    justify-content: center;
+    font-size:19px;
+   padding-top: 10px;
+    margin: 100px 0px 0px 100px;
+}
+.contai5 h2{
+ padding: 0px 40px;
+}
+.contai5 p{
+ padding: 0px 40px;
+}
+.contai5 ul li{
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+footer {
+    background-color: #0b0e17;
+    color: #ffffff;
+    padding: 30px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    }
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #0b0e17;
+    border-radius: 50%;
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+    }
+
+
+    @media (max-width: 1279px){
+        .containe h1{
+            font-size: 70px;
+        }
+        .containe{
+            font-size: 15px;
+        }
+        button{
+        padding: 14px 24px;
+        }
+        .container1{
+            font-size:25px;
+        }
+    
+    }
