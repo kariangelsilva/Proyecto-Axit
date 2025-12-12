@@ -22,7 +22,7 @@ header{
     color: azure;
 }
 .container img{
-    width: 70px;
+    width: 6%;
 }
 .containe{
     color: azure;
@@ -48,23 +48,35 @@ button{
     padding: 100px;
     text-align: center;
     font-size: 30px;
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .containe1{
-    gap: 100px;
-    padding: 20px 70px;
-    width: 90%;
+   gap: 10px;
+    padding: 20px 0px;
+    width: 100%;
     justify-content: space-around;
     display: flex;
     font-size: 20px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }   
+.contain h2{
+        font-size: 50px;
+        }
+    .conra{
+        width: 25%;
+    }
+
 
 
 .containe2{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     padding: 80px 150px;
-      background: linear-gradient(170deg, white 50%, #00ffad 45%);
+    background: linear-gradient(170deg, white 50%, #00ffad 45%);
 }
  .containe-dos{
     display: flex;
@@ -72,6 +84,7 @@ button{
     padding: 80px 150px;
     background-color: #00ffad;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .containe-dos img{
     width: 40%;
@@ -79,6 +92,8 @@ button{
 .containe2 img{
     width: 45%;
 }
+
+
 .contain2{
     width: 50%;
     font-size: 18px;
@@ -105,6 +120,8 @@ button{
     display: flex;
     justify-content: center;
     gap: 100px;
+      justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 .contai3{
@@ -154,6 +171,7 @@ ul li{
 
 
 .container5{
+    flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
     background-image: url('/assets/images/contact-bk.jpg');
@@ -161,9 +179,8 @@ ul li{
 }
 .formulario {
     height: 48%;
-    margin: 100px;
-    padding: 20px;
-    width: 70%;
+    padding: 116px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     color:#00f5a0;
@@ -191,11 +208,10 @@ textarea{
     font-size: 60px;
 }
 .contai5{
-    width: 60%;
     color: #ffffff;
     justify-content: center;
     font-size:19px;
-   padding-top: 10px;
+    padding-top: 10px;
     margin: 100px 0px 0px 100px;
 }
 .contai5 h2{
@@ -217,7 +233,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-    }
+    flex-wrap: wrap;
+}
 .social-icons a {
     display: inline-flex;
     align-items: center;
@@ -235,17 +252,255 @@ footer {
 
 
     @media (max-width: 1279px){
-        .containe h1{
-            font-size: 70px;
+       .containe{
+        width: 60%;
         }
-        .containe{
-            font-size: 15px;
+    .containe h1{
+            font-size: 80px;
         }
         button{
         padding: 14px 24px;
+        margin-top: 30px;
+        }
+    .container1{
+        font-size:25px;
+        }
+    .containe1{
+        padding: 20px 0px;
+        font-size: 15px;
+        }
+    .containe2{
+        padding: 40px 80px;
+        font-size: 15px;
+        }
+    .containe-dos{
+        width: 90%;
+        padding: 40px 46px;
+        gap:0px
+        }
+    .containe-dos img{
+        width: 35%;
+        height: 200px;
+        }
+    .contain2{
+        width: 60%;
+        font-size: 15px;
+        }
+    .contain h2{
+        font-size: 50px;
+        }
+    .containe2 img{
+        width: 35%;
+        }
+    .containe3{
+        gap: 0px;
+        }
+    .contai3, .contai3{
+        padding: 50px 50px; 
+    
+        }
+    .contain3, .contai3{
+        font-size: 16px
+        }
+    .hola{
+        padding: 40px 0px;
+        }
+        
+    .contai5{
+        width: 30%;
+        font-size: 15px;
+        margin: 150px 0px 0px 50px;
+    }    
+    .formulario{
+        width: 30%;
+        margin-top: 200px;
+        padding: 0;
+        
+    }
+    }
+    
+    @media (max-width: 920px){
+        header{
+            height: 600px;
+        }
+        button{
+            font-size: 13px;
+        }
+    .containe{
+        font-size: 16px;
+    }
+    .containe h1{
+        font-size: 65px;
+    }
+        .container1{
+            padding: 60px;
+        }
+    .containe1 img{
+        width: 150px;
+        }
+
+    .containe-dos{
+            width: 88%;
+        }
+    .containe2 img {
+        width: 45%; 
+        }
+    .contain2 h2 {
+        font-size: 40px;
+        }
+    .container4{
+        padding: 20px;
+    }
+    .container4 img{
+        width: 90px;
+    }
+    .contain h2 {
+        font-size: 40px;
+    } 
+        .contai5 {
+        width: 100%;
+        font-size: 15px;
+         margin: 100px 30px 0px 50px; 
+    }
+    .formulario{
+        width: 80%;
+        margin-top: 120px;
+        padding: 0;
+        
+    }
+    footer {
+    padding: 30px 50px;
+    font-size: 16px;;
+}
+.social-icons a{
+     width: 30px;
+    height: 30px;
+}
+    }
+    @media (max-width: 768px){
+        .container img{
+            width: 10%;
+            
+        }
+        button{
+            padding: 10px 10px;
+            font-size: 10px;
+        }
+        .container{
+            padding: 60px 60px;
+            font-size: 10px;
+        }
+        .containe{
+            padding: 0px 70px;
+            font-size: 13px;
         }
         .container1{
-            font-size:25px;
+            font-size: 20px;
         }
-    
+        .conra{
+            width: 70%;
+        }
+        .containe h1{
+         font-size: 60px;
+          line-height: 1;
+        }
+        .containe2{
+            padding: 0px 30px;
+        }
+        .containe2  img{
+          margin-top: -60px;;
+        }
+        .containe-dos{
+        padding: 40px 29px;
+        gap: 0px;
+        }
+        .containe-dos img{
+        height: 100px;
+        padding-right: 100px;
+        }
+        .contain2{
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .container3{
+            padding-top: 40px;
+            font-size: 25px;
+        }
+        .containe3{
+            padding: 10px;
+        }
+        .containe3 button{
+            padding: 10px 20px;
+            font-size: 13px;
+        }
+        .conatiner5{
+            flex-wrap: row;
+            
+        }
+        .contai5{
+            margin: 20px 30px 0px 50px;
+        }
+        .contai5 h2 {
+         font-size: 50px;
+}
+        .container4 img{
+        width: 50px;
     }
+    .formulario{
+        margin-top: 10px;
+        width: 60%;
+        height: 250px;
+    }
+    footer{
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    }
+        @media (max-width: 480px){
+            header{
+                height: 500px;
+            }
+            .containe{
+                padding: 30px;
+                font-size: 12px;
+                width: 90%;
+            }
+            .containe h1{
+                font-size: 50px;
+            }
+       .container img{
+        width: 17%;
+       }
+        .container1{
+            font-size: 16px;
+        }
+        .conra{
+            width: 100%;
+        }
+       .containe-dos h2, .contain h2{ font-size: 30px;}
+        .containe-dos, .contain{
+        font-size: 11px;
+    } 
+    .containe-dos{
+        padding: 40px 22px;
+    }
+    .containe-dos img{
+        width: 200px;
+        height: 140px;
+          }    
+        .contain3{
+            padding:30px 0px;
+        }
+        
+        .contain3, .contai3{
+            width: 250px;
+        }
+        .container5 h2{
+    font-size: 30px;}
+    .contai5{
+        font-size: 13px;
+    }
+        }
+        
